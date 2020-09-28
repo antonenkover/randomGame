@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class RandomService {
-    int upperBound = 100;
-    int lowerBound = 0;
+    private int upperBound = 100;
+    private int lowerBound = 0;
     ArrayList<String> previousGuesses = new ArrayList<>();
 
-    int randomNumber;
+    private int randomNumber;
 
     public void generateRandomNumber() {
         Random random = new Random();
